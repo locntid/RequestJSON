@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             progressDialog.setMessage("Loading...");
 
             progressDialog.setCancelable(false);
+            progressDialog.show();
             super.onPreExecute();
         }
 
